@@ -1,0 +1,70 @@
+/* Import Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Ewert);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+/* Task 1: Background and Padding */
+body {
+  background-image: url('../img/wood.jpg');
+  padding: 20px;
+}
+
+/* Task 2: Poster Creation */
+.poster {
+  background-image: url('../img/paper.jpg');
+  width: 488px;
+  height: 640px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); /* Example shadow */
+}
+
+/* Task 3: Mugshot and "WANTED" Title */
+#mugshot {
+  width: 300px;
+  height: 325px;
+  border: 2px solid #291200;
+  padding: 10px;
+}
+
+.wanted-title {
+  font-family: 'Ewert', cursive;
+  color: #291200;
+  font-size: 44pt;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Task 4: Typography */
+body,
+.poster h1,
+.poster p,
+.poster h2,
+.poster div {
+  font-family: 'Ultra', serif;
+  color: #291200;
+  margin: 0;
+}
+
+.subheading {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 24pt;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.description {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+#price {
+  font-size: 20pt;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: underline double;
+}
